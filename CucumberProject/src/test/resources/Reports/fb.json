@@ -1,0 +1,303 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2722810200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is in login page",
+            "match": {
+              "location": "LoginSteps.user_is_in_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-07T09:03:06.740Z",
+        "before": [
+          {
+            "result": {
+              "duration": 911200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeSanityscenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 92400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeRegressionscenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 3382514700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "To validate login using invalid username and password",
+        "description": "",
+        "id": "to-validate-login-functionality;to-validate-login-using-invalid-username-and-password;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 507911700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 342700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterRegressionscenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 213200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterSanityscenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 274488800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enter \"java\" and \"java@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"java\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"java@123\"",
+                  "offset": 22
+                }
+              ],
+              "location": "LoginSteps.user_enter_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3117499200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user click login button",
+            "match": {
+              "location": "LoginSteps.user_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 24469319700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user must be displayed with error messsage",
+            "match": {
+              "location": "LoginSteps.user_must_be_displayed_with_error_messsage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3075307400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is in login page",
+            "match": {
+              "location": "LoginSteps.user_is_in_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-07T09:03:41.320Z",
+        "before": [
+          {
+            "result": {
+              "duration": 113400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeSanityscenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 79200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeRegressionscenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1368753100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "",
+        "description": "To validate login without entering credentials ",
+        "id": "to-validate-login-functionality;",
+        "after": [
+          {
+            "result": {
+              "duration": 1345365400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 102100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterRegressionscenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 116900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterSanityscenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 196585000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user enter empty username and password",
+            "match": {
+              "location": "LoginSteps.user_enter_empty_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3099415600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user click login button",
+            "match": {
+              "location": "LoginSteps.user_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 76539000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user must be displayed with error message",
+            "match": {
+              "location": "LoginSteps.user_must_be_displayed_with_error_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@sanity"
+          }
+        ]
+      }
+    ],
+    "name": "To validate login functionality",
+    "description": "",
+    "id": "to-validate-login-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/login.feature",
+    "tags": [
+      {
+        "name": "@Login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
